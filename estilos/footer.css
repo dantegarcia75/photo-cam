@@ -1,0 +1,26 @@
+footer{
+    text-align: center;
+    /* background-image: url(../imagenes/bg.jpg); */
+    /* background-color: #AB7735; */
+    padding-top:10px;
+}
+
+footer a{
+    margin:20px 5px;
+    text-decoration: none;
+}
+.caja-copyright{
+    background-color: black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.copyright{
+    color:#FFFFFF;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+

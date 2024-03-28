@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(10, 241, 107);
+    background-color: #222324;
+    font-family: "Roboto", sans-serif;
+}
+
+.caja-servicio{
+    color: yellow;
+    color: white;
+    width: 480px;
+    margin: 20px auto; /*para centrar la caja dentro del main*/
+    padding: 20px;
+    text-align:center;
+    font-size: 25px;
+    background-color: #191919;
+    border-radius: 10px;
+    border: 5px solid #AB7735;
+}
+
+.caja-servicio2{
+    color: yellow;
+    color: white;
+    width: 700px;
+    margin: 20px auto; /*para centrar la caja dentro del main*/
+    padding: 20px;
+    text-align: justify;
+    font-size: 25px;
+    background-color: #191919;
+    border-radius: 10px;
+    border: 5px solid #AB7735;
+}
+
+.espaciado{    
+    line-height: 1.5; /* 1.6 es el interlineado recomendado -- espacio entre renglones*/ 
+    /* overflow-wrap: break-word; */
+
+}
+
+.caja-servicio img{
+width: 100%;
+margin-top: 30px;
+}
+
+.caja-servicio p{
+    color: grey;
+    font-size: 20px;
+}
+
+.caja-servicio2 p{
+    color: grey;
+}
+
+li{
+    margin-left: 15px;
+    list-style: disc;
+}
+
+.caja-titulo-lista{
+    /* background-color: red; */
+    text-align: center;
+    color: #AB7735;
+}
+
+/**/
+
+
+.btn-consultar{
+    display: block;
+    margin: 0px auto 0px;
+    padding: 10px 25px;
+    /* width: 30%; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background: #AB7735;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.btn-consultar a{
+    color:white; /* a este si le da bola para mantener el color del botón y uqe no parezca ya apretado*/    
+}
+
+.btn-consultar:hover{
+    background: #e09e4a; /*dorado clarito*/
+    transform: scale(1.1); /*aumenta el tamaño*/
+}
+
+/*max-width:970px*/
+
+@media screen and (max-width:720px){
+
+    /* .caja-servicio{
+        background-color: red;
+        width: auto;
+    } */
+    .caja-servicio2 {
+        /* background-color: red; */
+        width: 100%
+             
+    }
+
+    
+
+}
+
+@media screen and (max-width:480px){   
+    .caja-servicio{
+        /* background-color: green; */
+        width: auto; 
+        font-size: 18px;
+    }
+
+    .caja-servicio h3{
+        font-size: 20px;
+    }
+    .caja-servicio2 {
+     font-size: 18px;
+             
+    }
+    .caja-titulo-lista img {
+       width: 80%       
+    }
+       
+}

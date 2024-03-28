@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Cam | fotocabina de Tucuman</title>
+
+    <!-- Las metaetiquetas, etiquetas meta o elementos meta (también conocidas por su nombre en inglés, metatags o meta tags) son etiquetas HTML 
+    que se incorporan en el encabezado de una página web y que resultan invisibles para un visitante, pero de gran utilidad para
+    navegadores u otros programas que puedan valerse de esta información.
+    La cabecera <head> contiene las etiquetas meta, que son leídas por los buscadores al rastrear información.
+    Son una excelente manera para proporcionar a los motores de búsqueda información.
+    Cada uno procesará las etiquetas meta que entienden, ignorando el resto. -->
+
+    <meta name="author" content="Dante Garcia">
+    <meta name="description" content="Pagina web de Photo Cam, fotocabina de tucuman, con informacion de servicios y enlaces de contacto">
+    <meta name="keywords" content="Photo Cam, un instante para siempre, fotocabina, Tucuman, Yerba Buena, Argentina, precios promocionados, eventos">
+    
+    <!-- enlaces de estilos -->
+    <link rel="stylesheet" href="estilos/boton-scroll-top.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/index-home.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- enlace del icono de la pag -->
+    <!-- <link rel="icon" sizes="16x16 32x32 48x48" type="image/ico" href="imagenes/logo.ico" /> -->
+    <link rel="icon" type="ico" href="imagenes/favicon.ico">
+
+    
+</head>
+
+<body>
+
+    <header>
+        
+        <img class="logo" src="imagenes/photocam-logo-black.jpg" alt="logo de photocam" style="margin-top: 0;">    
+        <button id="abrir" class="abrir-menu transformed"><span class="menu-icon-color">|||</span></button>
+        
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar">X</button>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#quienes">Quienes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <!-- carrusel -->
+        <h2 class="titulo-principal">PHOTO CAM: LA FOTOCABINA MÁS GRANDE DEL NORTE</h2>
+        <div class="slider-box">
+            <ul class="">
+                <li class="">
+                    <img src="imagenes/photo1-ruicito.jpg" alt="">
+                </li>
+                <li class="">
+                    <img src="imagenes/photo2-guille.jpg" alt="">
+                </li>
+                <li class="">
+                    <img src="imagenes/photo3-naza.jpg" alt="">
+                </li>
+                <li class="">
+                    <img src="imagenes/photo4-maria.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <br>
+        <!-- quienes somos -->
+        <section id="quienes" class="seccion-principal espaciado">
+
+            <h2 class="titulo-seccion">Sobre la fotocabina</h2>
+            <img class="cabina"  src="imagenes/photocan-real.jpg" alt="foto real de fotocabina">
+            <p>Ubicada en el corazón de la ciudad, la <strong>fotocabina PHOTO CAM</strong> nació con el objetivo de brindar las mejores fotos instantaneas que recordarás para siempre, de cualquier evento. Fundada en 2013, pionera en el servicio de cabinas fotográficas en el norte del país. Registramos más de <strong>10000</strong> eventos con nuestra presencia.</p>
+            <p id="mision"><em>Nuestra misión es clara: deseamos que nuestros clientes atesoren <strong style="color: yellow;">"UN INSTANTE PARA SIEMPRE"</strong>.</em></p>
+            <p>Ofrecemos <a href="servicios.html"><span class="estilo-span">servicios</span></a> para cualquier tipo de evento. Nuestro personal está capacitado para ofrecer a nuestros clientes un servicio excelente, orientado al evento. Garantizando calidad y satisfacción.</p> 
+            <br>
+            <button class="btn-consultar"><a href="contacto.html">SOLICITAR PRESUPUESTO</a></button>
+
+        </section>
+        <br>
+        <!-- video sobre la fotocabina -->
+        <section class="seccion-video">
+
+            <div class="titulo-video-box">
+                <h3 class="titulo-seccion">Mirá nuestras fotocabinas:</h3>
+            </div>
+            
+            <div class="video">
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wUCAXkK-3j0?si=bYTpY8Om_RHA5d04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/wUCAXkK-3j0?si=bYTpY8Om_RHA5d04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <!-- <img src="imagenes/photocam-logo-white.jpg" style="width: 200px;"> -->
+        <!-- <h3 class="logo-h1" style="font-size: 40px; color:black; padding-bottom: 20px;">BARBERSHOP</h3> -->
+
+        
+        <div class="caja-copyright">
+            <img src="imagenes/photocam-logo-white.jpg" style="width: 150px;">
+        <p id="redes"></p>
+        
+        <a href="https://wa.me/5493815023777" target="_blank"> 
+            <img src="logos-redes/logo-whassapp.png" title= "toca para contactarme por WhatsApp" width="40" height="40"/>    
+        </a>
+
+        <a href="mailto:photocam00@hotmail.com">
+            <img src="logos-redes/logo-correo.png" title= "toca para contactarme por email" width="40" height="40"/>   
+        </a>
+        <a href="https://www.youtube.com/watch?v=klNLUYhW-KI&t=2687s" target="_blank">
+            <img src="logos-redes/logo-youtube.png" title= "toca para ver mi canal de YouTube" width="40" height="40"/>
+        </a> 
+        <a href="https://www.facebook.com/photocam00" target="_blank">
+            <img src="logos-redes/logo-face.png" title= "toca para contactarme por facebook" width="40" height="40"/>
+        </a>   
+
+        <!-- <a href="https://twitter.com/Juampi_Salomon" target="_blank">
+            <img src="imagenes/logo-twitter.png" title= "toca para contactarme por twitter" width="30" height="30"/>
+        </a> -->
+        <a href="https://www.tiktok.com/@aluraonline" target="_blank">
+            <img src="logos-redes/logo-tiktok.png" title= "toca para ver mi canal de TikTok" width="40" height="40"/>
+        </a>
+        <!-- <a href="https://goo.gl/maps/dioiUpWpta3eVUwR9" target="_blank">
+            <img src="logos-redes/logo-googlemaps2.png" title= "toca para ver la ubicación de la sede" width="40" height="40"/>
+        </a> -->
+
+            <p class="copyright">&copy Copyright Dante García 2020</p>
+        </div>
+    </footer>
+   <button onclick="topFunction()" id="myBtn" title="Toca para ir al principio de la página">
+        <img src="imagenes/flecha-corel.png" title= "Toca para ir al principio de la página" width="25" height="25"/>    
+    </button>
+    <script src="scripts/boton-scroll-top.js"></script>
+    <script src="scripts/burger-menu.js"></script>
+    
+</body>
+</html>

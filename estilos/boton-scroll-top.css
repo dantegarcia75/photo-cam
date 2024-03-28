@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth; /* para hacer menos brusca la subida al tope de página*/    
+    }
+
+#myBtn {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Posicion Fijada */
+    bottom: 20px; /* Coloca el botón abajo en la página */
+    right: 30px; /* Coloca el botón a 30px desde la derecha */
+    z-index: 99; /* 99 y asegurarse que no hay nada que lo superponga  */
+    border: none; /* Remueve bordes */
+    outline: none; /* Remueve contorno */
+    background-color: red; /* Fija un color de fondo */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Agrega un puntero de mouse al pasar por el boton (hover) */
+    padding: 8px 10px 5px; /* Algo de padding */
+    border-radius: 50%; /* Redondeo de escquinas */
+    font-size: 18px; /*Aumento de tamaño de font */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Agrega a gris oscuro de fondo al pasar (hover) */
+   
+  }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/boton-scroll-top.css">
+    <link rel="stylesheet" href="estilos/contacto.css">    
+    <!-- <link rel="icon" sizes="16x16 32x32 48x48" type="image/ico" href="imagenes/logo.ico"/> -->
+    <link rel="icon" type="ico" href="imagenes/favicon.ico">
+    <title>Photo Cam | Contacto</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <img class="logo" src="imagenes/photocam-logo-black.jpg" alt="logo de photocam" style="margin-top: 0;">    
+        <button id="abrir" class="abrir-menu transformed"><span class="menu-icon-color">|||</span></button>
+        
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar">X</button>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#quienes">Quienes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <div class="caja-contacto">
+            <p class="espaciado">PARA RESERVACIONES, PRESUPUESTOS, PROMOCIONES, O CUALQUIER PREGUNTA RELACIONADA, CONTACTA CON NOSOTROS POR CUALQUIERA DE NUESTRAS REDES, EMAIL, FORMULARIO, O <a href="https://wa.me/573175685241" target="_blank"><span style="color: greenyellow;">WHATSAPP</span></a> DE FORMA DIRECTA.</p>
+        </div>
+        <form action="enviar.php" method="post">
+            <br>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" name="nombre" required placeholder="Ejem: Juan Perez">
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" name="correo" placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" name="telefono" placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" name="mensaje" class="input-padron" required placeholder="Escribe aqui, tu consulta no molesta"></textarea>
+            
+            <fieldset>
+                <legend>¿Cómo te gustaría que te contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email"> Email</label>
+                
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono"> Teléfono</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            
+            </fieldset>
+           
+            <fieldset>
+                <legend>Selecciona un tipo de evento:</legend>
+                <select class="select-centrado">
+                    <option>Infantil</option>
+                    <option>15 años</option>
+                    <option>Casamiento</option>
+                    <option>Egresados</option>
+                    <option>Empresarial</option>
+                    <option>Cumpleaños</option>
+                    <option>Baby Shower</option>
+                    <option>Otro</option>                   
+                </select>
+            </fieldset>
+            
+            <label class="checkbox">
+            <input type="checkbox" name="recibir-promo" checked> Recibir promociones de la fotocabina</label>                
+            
+            <input type="submit" value="Enviar formulario" class="enviar">
+            <br>
+
+        </form>
+    </main>
+   
+    <footer>
+        <!-- <img src="imagenes/photocam-logo-white.jpg" style="width: 200px;"> -->
+        <!-- <h3 class="logo-h1" style="font-size: 40px; color:black; padding-bottom: 20px;">BARBERSHOP</h3> -->
+
+        
+        <div class="caja-copyright">
+            <img src="imagenes/photocam-logo-white.jpg" style="width: 150px;">
+        <p id="redes"></p>
+        
+        <a href="https://wa.me/5493815023777" target="_blank"> 
+            <img src="logos-redes/logo-whassapp.png" title= "toca para contactarme por WhatsApp" width="40" height="40"/>    
+        </a>
+
+        <a href="mailto:photocam00@hotmail.com">
+            <img src="logos-redes/logo-correo.png" title= "toca para contactarme por email" width="40" height="40"/>   
+        </a>
+        <a href="https://www.youtube.com/watch?v=klNLUYhW-KI&t=2687s" target="_blank">
+            <img src="logos-redes/logo-youtube.png" title= "toca para ver mi canal de YouTube" width="40" height="40"/>
+        </a> 
+        <a href="https://www.facebook.com/photocam00" target="_blank">
+            <img src="logos-redes/logo-face.png" title= "toca para contactarme por facebook" width="40" height="40"/>
+        </a>   
+
+        <!-- <a href="https://twitter.com/Juampi_Salomon" target="_blank">
+            <img src="imagenes/logo-twitter.png" title= "toca para contactarme por twitter" width="30" height="30"/>
+        </a> -->
+        <a href="https://www.tiktok.com/@aluraonline" target="_blank">
+            <img src="logos-redes/logo-tiktok.png" title= "toca para ver mi canal de TikTok" width="40" height="40"/>
+        </a>
+        <!-- <a href="https://goo.gl/maps/dioiUpWpta3eVUwR9" target="_blank">
+            <img src="logos-redes/logo-googlemaps2.png" title= "toca para ver la ubicación de la sede" width="40" height="40"/>
+        </a> -->
+
+            <p class="copyright">&copy Copyright Dante García 2020</p>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Toca para ir al principio de la página">
+        <img src="imagenes/flecha-corel.png" title= "Toca para ir al principio de la página" width="25" height="25"/>    
+    </button>
+    <script src="scripts/boton-scroll-top.js"></script>
+    <script src="scripts/burger-menu.js"></script>
+</body>
+</html>
