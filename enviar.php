@@ -13,8 +13,9 @@ $asunto = "Contacto desde Photo CAM Landing Page";
 $carta = "De: $hombre \n";
 $carta .= "Correo: $correo \n";
 $carta .= "Telefono: $telefono \n";
-$carta .= "Mensaje: $mensaje;
+$carta .= "Mensaje: $mensaje";
 
 // enviando mensaje
 mail($destinatario, $asunto, $carta);
+
 ?>
